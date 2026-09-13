@@ -1,0 +1,10 @@
+@"
+venv/
+.env
+db.sqlite3
+__pycache__/
+*.pyc
+staticfiles/
+media/
+desktop.ini
+"@ | Set-Content .gitignore
